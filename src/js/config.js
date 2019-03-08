@@ -1,7 +1,7 @@
 // config file - store apis settings 
 // self-note: don't store sensetive data on client side in real-projects
 
-export const proxy = 'https://thingproxy.freeboard.io/fetch/';
+export const proxy = 'https://cors-anywhere.herokuapp.com/';
 export const key = '96c0f156a634b7a19acd17bd9684e913';
 
 
@@ -10,5 +10,7 @@ export const key = '96c0f156a634b7a19acd17bd9684e913';
 
 
 // extra api heroku 
-// const proxy = 'https://cors-anywhere.herokuapp.com/';
+// export const proxy = 'https://cors-anywhere.herokuapp.com/';
 // export const key = '462b1cc8d4f2730081462fbc65136320';
+// export const proxy = 'https://thingproxy.freeboard.io/fetch/';
+
